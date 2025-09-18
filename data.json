@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Surreal paper portrait",
+        "prompt": "A moody, cinematic portrait of a woman wearing Cap backwords, sitting on a wooden chair in a dimly lit room. She is wearing a loose, cream-colored blouse with ruffles, looking contemplative and lost in thought. Around her, sheets of paper are dramatically suspended in mid-air, as if caught in motion, creating a surreal and dreamlike atmosphere. The lighting casts soft shadows on the wall, emphasizing the mysterious and artistic mood of the scene",
+        "tags": ["Gemini Nano Banana"],
+        "image": "Surreal_paper_portrait.png"
+    },
+    {
+        "id": 2,
+        "title": "Classic portrait photography",
+        "prompt": "Using this picture, create in a glamorous woman in a full long sleeves black blouse & Total black chiffon saree, sitting gracefully against a dramatic circular spotlight backdrop. She wears beautiful studds and minimal jewelry, long black wavy hair with beautiful eyes exuding elegance and poise, showing her face with slightly tilted chin gracefully. The image is in black and white, with cinematic lighting and deep shadows, creating a timeless, vintage-inspired fashion editorial look",
+        "tags": ["Gemini Nano Banana"],
+        "image": "Classic_portrait_photography.png"
+    },
+    {
+        "id": 3,
+        "title": "Power suit portrait",
+        "prompt": "A moody, cinematic portrait of a woman wearing Cap backwords, sitting on a wooden chair in a dimly lit room. She is wearing a loose, cream-colored blouse with ruffles, looking contemplative and lost in thought. Around her, sheets of paper are dramatically suspended in mid-air, as if caught in motion, creating a surreal and dreamlike atmosphere. The lighting casts soft shadows on the wall, emphasizing the mysterious and artistic mood of the scene",
+        "tags": ["Gemini Nano Banana"],
+        "image": "Power_suit_portrait.png"
+    }
+]
