@@ -10,7 +10,7 @@ A curated collection of powerful AI image generation prompts for Gemini and Chat
 
 <div align="center">
   <a href="https://promptcollection.netlify.app/">
-    <img src="Screenshotss/screenshot.png" alt="PromptCollection Preview" width="600">
+    <img src="Screenshots/screenshot.png" alt="PromptCollection Preview" width="600">
   </a>
   <br>
   <a href="https://promptcollection.netlify.app/">
