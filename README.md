@@ -28,7 +28,7 @@ PromptCollection/
 │ ├── Power_suit_portrait.png
 │ └── ... (more to come)
 ├── Screenshots/
-│ ├── screenshot.png #Screenshot
+│ └── screenshot.png #Screenshot
 ├── index.html # Main application interface
 ├── styles.css # Complete visual styling
 ├── script.js # Application logic
