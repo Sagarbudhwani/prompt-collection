@@ -228,6 +228,12 @@ We support:
 - Help others when you can
 - Celebrate contributions!
 
+## 🔒 Security Notes
+
+This is a static website with no backend, user data, or authentication. 
+
+If you find any security concerns, please report them through regular issues using our bug report template.
+
 ## 📄 License
 
 By contributing, you agree that your contributions will be licensed under the MIT License. See [LICENSE](LICENSE) for details.
