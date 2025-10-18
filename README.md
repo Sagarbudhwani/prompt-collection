@@ -22,20 +22,38 @@ A curated collection of powerful AI image generation prompts for Gemini and Chat
 
 ```bash
 PromptCollection/
-├── Images/ # All prompt example images
-│ ├── Surreal_paper_portrait.png
-│ ├── Classic_portrait_photography.png
-│ ├── Power_suit_portrait.png
-│ └── ... (more to come)
-├── Screenshots/
-│ └── screenshot.png #Screenshot
-├── index.html # Main application interface
-├── styles.css # Complete visual styling
-├── script.js # Application logic
-├── data.json # All prompts data
-├── README.md # This document
-└── LICENSE # MIT License
+├── Images/                          # Your 3 example images
+│   ├── Surreal_paper_portrait.png
+│   ├── Classic_portrait_photography.png  
+│   └── Power_suit_portrait.png
+├── .github/                        # Issue templates
+│   └── ISSUE_TEMPLATE/            
+│       ├── bug-report.md
+│       ├── feature-request.md
+│       └── prompt-submission.md   
+├── index.html                      # Main app (128 lines)
+├── styles.css                      # Styling (500+ lines)
+├── script.js                       # Logic (250+ lines)
+├── data.json                       # Your 3 prompts
+├── README.md                       # Documentation
+├── CONTRIBUTING.md                 # Contribution guidelines
+├── SECURITY.md                     # Security policy
+└── LICENSE                         # MIT License
 ```
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our:
+- [Contribution Guidelines](CONTRIBUTING.md) - How to add prompts and report issues
+- [Open an Issue](https://github.com/Sagarbudhwani/prompt-collection/issues) - Choose from our templates
+
+## 🐛 Issues & Support
+
+Found a bug or need help?
+- [Open Issues](https://github.com/Sagarbudhwani/prompt-collection/issues) and select a template:
+  - 🐛 Bug Report
+  - 💡 Feature Request  
+  - 🎨 Prompt Submission
 
 ## 🚀 Features
 
@@ -56,6 +74,12 @@ PromptCollection/
 - 🔖 Tagged for easy discovery
 - ⭐ Featured prompts highlighting
 - 📊 Sort by newest, popular, or A-Z
+
+## 📚 Documentation
+
+- [Wiki](https://github.com/Sagarbudhwani/prompt-collection/wiki) - Detailed guides and FAQs
+- [Live Demo](https://promptcollection.netlify.app/) - Try it out
+- [Customization Guide](https://github.com/Sagarbudhwani/prompt-collection/wiki/Customization) - Modify colors and layout
 
 ## 🎮 Quick Start
 
@@ -78,28 +102,23 @@ git clone https://github.com/Sagarbudhwani/PromptCollection.git
 ## 🛠️ For Developers
 
 **Adding New Prompts:**
-Simply edit the `data.json` file with new prompt objects following this format:
-
-```json
-{
-  "id": 4,
-  "title": "Your Prompt Title",
-  "prompt": "The complete prompt text here...",
-  "tags": ["Gemini", "ChatGPT"],
-  "image": "your-image.png"
-}
-```
+Edit `data.json` or [submit a prompt via issues](https://github.com/Sagarbudhwani/prompt-collection/issues).
 
 **Customization Options:**
 - Modify colors in the `:root` CSS variables
-- Add new filter categories in the HTML and JS
-- Adjust the UI in `styles.css`
+- Add new filter categories in HTML and JS
+- See our [Customization Guide](https://github.com/Sagarbudhwani/prompt-collection/wiki/Customization) for details
 
 **Technical Highlights:**
 - Pure vanilla JavaScript (no frameworks)
 - CSS variables for easy theming
 - LocalStorage for theme preference persistence
 - Responsive design with CSS Grid and Flexbox
+- [Detailed technical docs in our Wiki](https://github.com/Sagarbudhwani/prompt-collection/wiki/Technical-Details)
+
+## 🔒 Security
+
+This is a static site with no backend. For security concerns, please see our [Security Policy](SECURITY.md).
 
 ## 📜 License
 
