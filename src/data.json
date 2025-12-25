@@ -57,6 +57,14 @@
   },
   {
     "id": 8,
+    "title": "Cinematic Dune Aesthetic",
+    "prompt": "Atmospheric full-body fashion portrait in a minimalist editorial style.\nUse the uploaded photo as a reference for overall composition and mood: a solitary figure subtly dissolving into dense, colored fog.\nPose: A male figure standing with a gentle forward hunch, head lowered, eyes hidden or cast toward the ground. Hands slipped into trouser pockets. A calm, closed, introspective stance.\nEnvironment: An abstract, horizonless space filled with thick, saturated fog. The ground features a textured surface resembling red Martian sand or rugged stone, gradually fading into the mist.\nLighting: Soft volumetric backlighting that wraps around the figure. A smooth gradient from bright yellow and amber at the top, transitioning into vivid orange at mid-frame, and deep dark red near the ground. Light creates a gentle silhouette and a dreamy, cinematic atmosphere.\nWardrobe: Loose-fit shirt with an abstract dark print (camouflage- or foliage-inspired), wide dark trousers falling onto the shoes, and light sneakers with dark detailing.\nColor & Mood: Warm monochrome palette (orange, amber, cinnabar) with high saturation, subtle cinematic grain, soft-focus background, and a surreal sense of heat, depth, and isolation.",
+    "model": "Gemini",
+    "image": "https://raw.githubusercontent.com/Sagarbudhwani/prompt-collection/refs/heads/main/Images/Cinematic%20Dune%20Aesthetic.png",
+    "category": "Conceptual Fashion Photography"
+  },
+  {
+    "id": 9,
     "title": "Golden Hour Luxe",
     "prompt": "A hyper-realistic 8K cinematic portrait of a young man in his mid-20s, using the 100% real face from the uploaded image. He has a rugged beard and dark, slightly messy hair, captured in a relaxed, confident pose as he leans back amidst tall, feathery ornamental grasses.\nHe is wearing stylish black sunglasses and Apple AirPods that sit naturally in his ears.\nHis outfit features a luxurious, unbuttoned light-pink silk shirt with subtle embroidered detailing on the pocket and casually rolled cuffs, paired with crisp white trousers.\nGolden-hour sunlight enhances the scene with warm highlights on the silk fabric, gentle rim-lighting around his hair, and soft shadows across his face. The overall mood is elegant, immersive, and richly cinematic, emphasizing texture, depth, and realism.",
     "model": "Gemini",
