@@ -116,4 +116,4 @@ MIT © [Sagar Budhwani](https://github.com/Sagarbudhwani) - Free to use, modify,
 
 **Sagar Budhwani**
 * GitHub: [@Sagarbudhwani](https://github.com/Sagarbudhwani)
-* Portfolio: [appsbysagar.netlify.app](https://appsbysagar.netlify.app)
+* More Apps: [appsbysagar.netlify.app](https://appsbysagar.netlify.app)
