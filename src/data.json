@@ -46,5 +46,13 @@
     "model": "Gemini",
     "image": "https://raw.githubusercontent.com/Sagarbudhwani/prompt-collection/refs/heads/main/Images/Urban%20Caf%C3%A9%20Lifestyle%20Portrait.png",
     "category": "Lifestyle & Streetwear Photography"
+  },
+  {
+    "id": 7,
+    "title": "Introspective Bridge Shot",
+    "prompt": "Ultra-realistic full-body photo of a young slim man standing on a narrow rusty iron bridge in a forest area. He is wearing a light beige/off-white vertical striped shirt with half-rolled sleeves, black loose-fit pants with slight distressing near the knees, white sneakers, black sunglasses, and a wristwatch on his left hand. He is leaning with his right elbow on the bridge railing, head tilted down looking at the ground, one leg crossed over the other in a casual, confident pose. Natural sunlight, realistic shadows, outdoor photography.",
+    "model": "Gemini",
+    "image": "https://raw.githubusercontent.com/Sagarbudhwani/prompt-collection/refs/heads/main/Images/Introspective%20Bridge%20Shot.png",
+    "category": "Lifestyle Photography"
   }
 ]
