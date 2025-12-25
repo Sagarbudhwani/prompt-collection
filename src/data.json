@@ -30,5 +30,13 @@
     "model": "Gemini",
     "image": "https://raw.githubusercontent.com/Sagarbudhwani/prompt-collection/refs/heads/main/Images/Chill%20Gorpcore.png",
     "category": "Travel & Lifestyle Photography"
+  },
+  {
+    "id": 5,
+    "title": "Candid Tech-Gorp",
+    "prompt": "A candid iPhone photo of a person reclining on rocky grassy alpine terrain, wearing a slate gray and neon lime Arc'teryx hooded jacket, black cargo pants, and neon-accented sneakers. Hood up, face partially turned with reflective sunglasses. Soft diffused daylight highlights rugged rocks, grass, and distant misty mountains. Casual tilted angle, capturing relaxed, spontaneous gorpcore-style outdoor authenticity with realistic textures on fabrics, terrain, and lenses.",
+    "model": "Gemini",
+    "image": "https://raw.githubusercontent.com/Sagarbudhwani/prompt-collection/refs/heads/main/Images/Candid%20Tech-Gorp.png",
+    "category": "Travel & Lifestyle Photography"
   }
 ]
