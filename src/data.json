@@ -38,5 +38,13 @@
     "model": "Gemini",
     "image": "https://raw.githubusercontent.com/Sagarbudhwani/prompt-collection/refs/heads/main/Images/Candid%20Tech-Gorp.png",
     "category": "Travel & Lifestyle Photography"
+  },
+  {
+    "id": 6,
+    "title": "Urban Café Lifestyle Portrait",
+    "prompt": "Create a photorealistic portrait of a young boy with the same face as the reference image. He is leaning casually against a café doorway. He is wearing a loose gray oversized t-shirt, black cargo pants, a bracelet, a chain, a wristwatch, and sunglasses. He has a black backpack on one shoulder. In one hand he is holding a takeaway coffee cup, and his other hand is in his pocket. He is wearing stylish high-top sneakers in a bold color.\nThe background shows the entrance of a modern café with a dark interior and visible signage on the glass door.\nStyle: urban streetwear, realistic lighting, clean and modern atmosphere.",
+    "model": "Gemini",
+    "image": "https://raw.githubusercontent.com/Sagarbudhwani/prompt-collection/refs/heads/main/Images/Urban%20Caf%C3%A9%20Lifestyle%20Portrait.png",
+    "category": "Lifestyle & Streetwear Photography"
   }
 ]
