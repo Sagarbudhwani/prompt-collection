@@ -9,10 +9,10 @@
   },
   {
     "id": 2,
-    "title": "Minimalist Coffee Logo",
-    "prompt": "Minimalist logo design for a coffee shop named 'Bean & Leaf', vector art, flat design, white background, using coffee bean and leaf shapes, elegant typography, golden ratio.",
+    "title": "Environmental Fashion Portrait",
+    "prompt": "Medium shoth yperrealistic editorial photo of a smiling young man sitting on volcanic terrain with snow patches at Cotopaxi, Ecuador. Wearing high-fashion mountain gear: sleek insulated jacket, slim snow pants, chunky hiking boots, dark sunglasses, and a beanie or hood. Volcanic rocks and scattered snow add texture. Majestic Cotopaxi volcano rises in the background with icy summit and red volcanic rocks. Natural sharp lighting, crisp high-altitude shadows, clear blue sky, editorial mountain fashion aesthetic.",
     "model": "Gemini",
-    "image": "https://images.unsplash.com/photo-1611416626766-a6ffb15d1e0c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "category": "Logo Design"
+    "image": "https://raw.githubusercontent.com/Sagarbudhwani/prompt-collection/refs/heads/main/Images/Environmental%20Fashion%20Portrait.png",
+    "category": "Travel & Lifestyle Photography"
   }
 ]
