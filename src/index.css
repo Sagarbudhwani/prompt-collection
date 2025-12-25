@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Setting default background to dark*/
+body {
+  @apply bg-slate-900 text-white;
+}
