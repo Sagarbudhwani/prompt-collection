@@ -22,5 +22,13 @@
     "model": "Gemini",
     "image": "https://raw.githubusercontent.com/Sagarbudhwani/prompt-collection/refs/heads/main/Images/Atmospheric%20Alpine%20Streetwear.png",
     "category": "Travel & Lifestyle Photography"
-  }
+  },
+  {
+    "id": 4,
+    "title": "Chill Gorpcore",
+    "prompt": "A young man stands beside a forest stream wearing a bright yellow outdoor jacket, green shorts, blue-gray socks, patterned Crocs, and a dark green backpack. One hand in pocket, the other relaxed. Surrounded by tall trees, rocky forest floor, and sparse grass. Soft natural light highlights textures of rocks, water, and foliage. Serene, photorealistic outdoor adventure scene with cinematic depth and ultra-detailed textures.",
+    "model": "Gemini",
+    "image": "https://raw.githubusercontent.com/Sagarbudhwani/prompt-collection/refs/heads/main/Images/Chill%20Gorpcore.png",
+    "category": "Travel & Lifestyle Photography"
+  },
 ]
