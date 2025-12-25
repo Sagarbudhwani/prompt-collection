@@ -14,5 +14,13 @@
     "model": "Gemini",
     "image": "https://raw.githubusercontent.com/Sagarbudhwani/prompt-collection/refs/heads/main/Images/Environmental%20Fashion%20Portrait.png",
     "category": "Travel & Lifestyle Photography"
+  },
+  {
+    "id": 3,
+    "title": "Atmospheric Alpine Streetwear",
+    "prompt": "Full-body fashion editorial of a male model on a misty Swiss Alps mountain, wearing a dark grey puffer jacket, baggy jeans, beige Timberlands, and a CP Company cap. Low-angle shot with soft diffuse light, muted autumn tones, subtle film grain, and hyper-detailed textures on clothing and rocky terrain. Cinematic realism, vertical 4:5 aspect ratio, high-resolution Leica SL2 35mm capture, atmospheric alpine fashion mood.",
+    "model": "Gemini",
+    "image": "https://raw.githubusercontent.com/Sagarbudhwani/prompt-collection/refs/heads/main/Images/Atmospheric%20Alpine%20Streetwear.png",
+    "category": "Travel & Lifestyle Photography"
   }
 ]
