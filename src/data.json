@@ -1,0 +1,18 @@
+[
+  {
+    id: 1,
+    title: "Neon Cyberpunk Samurai",
+    prompt: "A futuristic samurai standing in a rainy neon city, cyberpunk aesthetic, glowing katana, detailed armor, cinematic lighting, 8k resolution, trending on artstation, unreal engine 5 render.",
+    model: "Gemini",
+    image: "https://images.unsplash.com/photo-1746003040747-a1b5150ba423?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    category: "Cyberpunk"
+  },
+  {
+    id: 2,
+    title: "Minimalist Coffee Logo",
+    prompt: "Minimalist logo design for a coffee shop named 'Bean & Leaf', vector art, flat design, white background, using coffee bean and leaf shapes, elegant typography, golden ratio.",
+    model: "Gemini",
+    image: "https://images.unsplash.com/photo-1611416626766-a6ffb15d1e0c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    category: "Logo Design"
+  }
+]
