@@ -1,11 +1,11 @@
 [
-    {
+  {
     "id": 1,
-    "title": "Neon Cyberpunk Samurai",
-    "prompt": "A futuristic samurai standing in a rainy neon city, cyberpunk aesthetic, glowing katana, detailed armor, cinematic lighting, 8k resolution, trending on artstation, unreal engine 5 render.",
+    "title": "Urban Editorial Collage",
+    "prompt": "An editorial poster-style multi-panel collage presents Subject person in the image, quiff-style tousled mid length black hair, light mustachel across three asymmetric photographic frames, unified by a muted-brown urban streetwear aesthetic and a retro analog-digital fusion mood. The top-left frame captures a reflective window shot where the subject holds a phone in front of their face, dressed in black leather jacket with a slight shine, crisp white shirt wom casually unbuttoned at the top, light blue baggy denim jeans, wearing a rectangular black sunglasses, the reflective surface introduces layered ghosting, faint architectural overlays, and a subtly stretched full-body silhouette shaped by the curvature of the glass. The top-right frame shifts into a close-range, downward-angled ultra-wide portrait taken on a cobblestone street, where the subject leans forward with hands in pockets and looking at his mobile phone (iphone 16 pro max), wearing the same outfit now paired with black rectangular sunglasses, while the cobblestones warp and radiate outward due to lens perspective distortion. The bottom-right frame becomes an intimate overhead selfie (looking at right side) with the subject holding a drink, still in the same wardrobe but now with wired earphones, the black rectangular sunglasses dominating the frame under soft overcast lighting, enhanced by faint digital-grid overlays and a minimal square facial-bounding graphic. Floating across the middle section of the poster is a translucent iOS-style Apple Music mini-player displaying \"After Hour\" by Weeknd, The Creator, featuring artwork, timeline, and playback controls without shadows, contributing to the minimal Ul aesthetic alongside subtle cursor-like frame lines and rectangular highlights around the collage edges. The overall palette emphasizes warm ambers, washed neutrals, soft greys, reflective textures, wool plaid patterning, polished leather, and stone pavement, all rendered with realistic lighting and natural distortion patterns while avoiding stickers, extra subjects, wardrobe changes, incorrect Ul icons, neon color shifts, or any futuristic sci-fi elements.",
     "model": "Gemini",
-    "image": "https://images.unsplash.com/photo-1746003040747-a1b5150ba423?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "category": "Cyberpunk"
+    "image": "https://raw.githubusercontent.com/Sagarbudhwani/prompt-collection/main/Images/Urban%20Editorial%20Collage.png",
+    "category": "Lifestyle & Streetwear Photography"
   },
   {
     "id": 2,
