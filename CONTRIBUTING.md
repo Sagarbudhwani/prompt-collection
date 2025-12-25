@@ -1,238 +1,115 @@
-# Contributing to PromptCollection
+# Contributing to PromptCollection (V2)
 
-We love contributions! This guide will help you add prompts, report issues, and contribute to our AI image prompt collection.
-
+Contributions are welcome! Since upgrading to React, adding prompts and improving the code is much easier. This guide will help you add prompts, fix bugs, or improve the project.
 ## 🎯 Quick Start
 
-### Just want to add a prompt?
-1. Use our [Prompt Submission Template](.github/ISSUE_TEMPLATE/prompt-submission.md)
-2. We'll add it for you!
+### Want to add a prompt?
+1. **Run the app locally** (see [Development Setup](#-development-setup)).
+2. **Go to `/admin`** in your browser (e.g., `http://localhost:5173/admin`).
+3. **Generate the code** using our built-in tool.
+4. **Paste it** into `src/data.js`.
+5. **Submit a Pull Request.**
 
-### Want to edit directly?
-1. Fork the repository
-2. Edit `data.json`
-3. Submit a Pull Request
+### Want to fix a bug?
+1. Fork the repository.
+2. Create a branch (`fix/issue-name`).
+3. Make your changes in React.
+4. Submit a Pull Request.
 
 ## 📝 Table of Contents
-- [Adding Prompts](#adding-prompts)
-- [Reporting Bugs](#reporting-bugs)
-- [Feature Requests](#feature-requests)
-- [Code Contributions](#code-contributions)
-- [Code Style](#code-style)
-- [Questions?](#questions)
+- [Development Setup](#-development-setup)
+- [Project Structure](#-project-structure)
+- [Adding Prompts (The Easy Way)](#-adding-prompts)
+- [Coding Guidelines](#-coding-guidelines)
+- [Reporting Bugs](#-reporting-bugs)
 
-## 🎨 Adding Prompts
+## 🔧 Development Setup
 
-### Method 1: Direct JSON Editing
-Edit the `data.json` file following this format:
-
-```json
-{
-  "id": 4,
-  "title": "Your Creative Title",
-  "prompt": "Detailed prompt description that generates amazing AI images. Be specific about styles, lighting, composition, and mood.",
-  "tags": ["Gemini Nano Banana"],
-  "image": "Images/your-image-filename.png"
-}
-```
-
-### Method 2: Issue Template (Recommended for Beginners)
-1. Go to: https://github.com/Sagarbudhwani/prompt-collection/issues
-2. Click "New Issue"
-3. Select "Prompt Submission"
-4. Fill out the form with your prompt details
-5. We'll handle the technical part!
-
-### Field Guidelines
-- **id**: Get the next number (current highest + 1)
-- **title**: Clear, descriptive (max 60 characters)
-- **prompt**: Detailed and specific instructions
-- **tags**: Use existing tags like "Gemini Nano Banana"
-- **image**: Path to your image in Images/ folder
-
-## 🖼️ Image Guidelines
-
-### File Requirements
-- **Format**: PNG or JPG
-- **Size**: 800x600px recommended (4:3 ratio)
-- **Quality**: Clear, high-quality images
-- **Naming**: Use descriptive_names_with_underscores.png
-- **Location**: Place in `Images/` folder
-
-### Example Image Names
-
-```bash
-Images/
-├── surreal_dreamscape.png
-├── cinematic_portrait.jpg
-├── fantasy_landscape.png
-└── abstract_art.jpg
-```
-
-### Prompt Quality Standards
-
-#### ✅ Do's
-- Be specific about style, lighting, composition
-- Use descriptive language ("cinematic lighting" vs "good lighting")
-- Include context and desired mood
-- Test prompts before submitting
-- Use proper formatting and punctuation
-
-#### ❌ Don'ts
-- Vague descriptions ("a beautiful landscape")
-- Overly complex or contradictory instructions
-- Copyrighted content or specific brands
-- Inappropriate or unsafe content
-
-## 🐛 Reporting Bugs
-
-Found an issue? Use our [Bug Report Template](.github/ISSUE_TEMPLATE/bug-report.md).
-
-### Information to Include:
-- Steps to reproduce the issue
-- Expected vs actual behavior
-- Browser and device information
-- Screenshots if applicable
-- Console errors (F12 → Console)
-
-### Common Issues to Check First:
-- Images not loading? Check file paths in `data.json`
-- Search not working? Check browser console for errors
-- Theme not persisting? Check localStorage is enabled
-
-## 💡 Feature Requests
-
-Have a great idea? Use our [Feature Request Template](.github/ISSUE_TEMPLATE/feature-request.md).
-
-### Feature Categories We're Interested In:
-- New filter categories
-- User experience improvements
-- Additional prompt types
-- Integration possibilities
-- Performance enhancements
-
-## 🔧 Code Contributions
-
-### Development Setup
+Unlike the old HTML version, V2 requires Node.js.
 
 ```bash
 # 1. Fork and clone the repository
-git clone https://github.com/YOUR_USERNAME/prompt-collection.git
+git clone [https://github.com/YOUR_USERNAME/prompt-collection.git](https://github.com/YOUR_USERNAME/prompt-collection.git)
 
 # 2. Navigate to the project
 cd prompt-collection
 
-# 3. Open in browser (no build process needed!)
-open index.html|
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
 ```
 
-# Project Structure
+The app should now be running at `http://localhost:5173`.
+
+## 📂 Project Structure
 
 ```bash
 prompt-collection/
-├── index.html      # Main application interface
-├── styles.css      # Styling with CSS variables
-├── script.js       # Application logic
-├── data.json       # Prompt database
-└── Images/         # Example images
+├── public/                 # Static assets (Logo, Favicon)
+├── src/
+│   ├── components/         # React Components
+│   │   ├── Navbar.jsx      # Navigation & Search
+│   │   ├── PromptCard.jsx  # The Grid Card
+│   │   ├── AdminHelper.jsx # Internal Tool for contributors
+│   │   └── ...
+│   ├── data.js             # The Main Database (Edit this!)
+│   ├── App.jsx             # Main Logic & Routing
+│   └── main.jsx            # Entry Point
+├── tailwind.config.js      # Styling Config
+└── vite.config.js          # Build Config
 ```
 
-### Making Changes
-1. Create a new branch: `git checkout -b feature/your-feature`
-2. Make your changes
-3. Test thoroughly in multiple browsers
-4. Submit a Pull Request
+## 🎨 Adding Prompts
 
-### Common Development Tasks
+We have a built-in **Admin Helper** to prevent syntax errors. Please use it!
 
-#### Adding New Filter Categories
-1. Add filter button in `index.html`:
-```html
-<button class="filter-btn" data-filter="new-category">
-    <i class="fas fa-tag"></i> New Category
-</button>
-```
+### Step 1: Generate the Code
+1.  Run the app: `npm run dev`
+2.  Navigate to `http://localhost:5173/admin`
+3.  Fill in the form (Title, Category, Image URL, Prompt).
+4.  Check the **Live Preview**.
+5.  Click **"Copy Code"**.
 
-2. The existing JavaScript will automatically handle the filtering
+### Step 2: Add to Database
+1.  Open `src/data.js` in your code editor.
+2.  Paste the code at the bottom of the `mockPrompts` array.
+3.  **Important:** Ensure the ID is unique (increment the last ID by 1).
 
-Modifying Search Behavior
-Edit the searchPrompts function in script.js:
+### Image Guidelines
+* **URLs:** High-quality hosted URLs (Unsplash, Pexels, etc.) are preferred.
+* **Local Files:** If using a local file, place it in the `public/` folder and reference it as `/filename.png`.
 
-```javascript
-function searchPrompts(query) {
-    const filteredPrompts = promptsData.filter(prompt => 
-        prompt.title.toLowerCase().includes(query.toLowerCase()) || 
-        prompt.prompt.toLowerCase().includes(query.toLowerCase()) ||
-        prompt.tags.some(tag => tag.toLowerCase().includes(query.toLowerCase()))
-    );
-    renderPrompts(filteredPrompts);
-}
-```
+## 💻 Coding Guidelines
 
-### Testing Checklist
-- [ ] Works in Chrome, Firefox, Safari
-- [ ] Responsive on mobile, tablet, desktop
-- [ ] Search functionality works
-- [ ] Filter buttons work
-- [ ] Copy to clipboard works
-- [ ] Theme toggle works
-- [ ] Images load correctly
-- [ ] No console errors
+### Tech Stack
+* **Framework:** React (Vite)
+* **Styling:** Tailwind CSS
+* **Icons:** Lucide React
 
-### Browser Support
-We support:
-- Chrome 60+
-- Firefox 55+
-- Safari 12+
-- Edge 79+
+### Style Guide
+* **Functional Components:** Use modern React hooks (`useState`, `useEffect`).
+* **Tailwind:** Use utility classes for styling. Avoid writing custom CSS in `index.css` unless necessary.
+* **Mobile First:** Always test layout on mobile size first, then add `sm:` or `md:` breakpoints.
 
-### Testing Responsive Design
-- Test on screens smaller than 768px (mobile)
-- Test on screens 768px-1024px (tablet)
-- Test on screens larger than 1024px (desktop)
+### Common Tasks
 
-### Common Issues to Test
-- Image loading with correct paths
-- LocalStorage for theme persistence
-- Clipboard API permissions
-- CSS variable compatibility
+**Adding a New Category:**
+You don't need to touch the code! Just add a prompt with a new category name (e.g., "Pixel Art") in `src/data.js`. The app will automatically create a filter button for it.
 
-## 🎨 Code Style
+**Updating the Logic:**
+* Search logic is located in `src/App.jsx`.
+* Card design is in `src/components/PromptCard.jsx`.
 
-### JavaScript
-- Use modern ES6+ features
-- Add comments for complex logic
-- Follow existing naming conventions
-- Handle errors gracefully
+## 🐛 Reporting Bugs
 
-### CSS
-- Use CSS variables for theming
-- Follow BEM-like naming for complex components
-- Keep responsive design in mind
-- Use flexbox/grid for layouts
+Found a bug? Use our [Bug Report Template](.github/ISSUE_TEMPLATE/bug-report.md).
 
-### HTML
-- Semantic HTML where possible
-- Accessible labels and alt text
-- Clean, readable structure
-
-## ❓ Questions?
-
-### Getting Help
-- Check our [Wiki](https://github.com/Sagarbudhwani/prompt-collection/wiki)
-- Search existing [Issues](https://github.com/Sagarbudhwani/prompt-collection/issues)
-
-### Communication
-- Be respectful and inclusive
-- Provide clear, constructive feedback
-- Help others when you can
-- Celebrate contributions!
-
-## 🔒 Security Notes
-
-This is a static website with no backend, user data, or authentication. 
-
-If you find any security concerns, please report them through regular issues using our bug report template.
+### Information to Include:
+* Browser and device information.
+* Screenshots.
+* Console errors (F12 → Console).
 
 ## 📄 License
 
@@ -240,6 +117,4 @@ By contributing, you agree that your contributions will be licensed under the MI
 
 ---
 
-**Thank you for contributing to PromptCollection!** 🎨✨
-
-Every prompt, bug report, and improvement helps build a better resource for the AI community.
+**Thank you for contributing to PromptCollection V2!** 🚀
