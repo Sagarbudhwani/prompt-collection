@@ -1,18 +1,23 @@
 [
-  {
-    id: 1,
-    title: "Neon Cyberpunk Samurai",
-    prompt: "A futuristic samurai standing in a rainy neon city, cyberpunk aesthetic, glowing katana, detailed armor, cinematic lighting, 8k resolution, trending on artstation, unreal engine 5 render.",
-    model: "Gemini",
-    image: "https://images.unsplash.com/photo-1746003040747-a1b5150ba423?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    category: "Cyberpunk"
-  },
-  {
-    id: 2,
-    title: "Minimalist Coffee Logo",
-    prompt: "Minimalist logo design for a coffee shop named 'Bean & Leaf', vector art, flat design, white background, using coffee bean and leaf shapes, elegant typography, golden ratio.",
-    model: "Gemini",
-    image: "https://images.unsplash.com/photo-1611416626766-a6ffb15d1e0c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    category: "Logo Design"
-  }
+    {
+        "id": 1,
+        "title": "Surreal paper portrait",
+        "prompt": "A moody, cinematic portrait of a woman wearing Cap backwords, sitting on a wooden chair in a dimly lit room. She is wearing a loose, cream-colored blouse with ruffles, looking contemplative and lost in thought. Around her, sheets of paper are dramatically suspended in mid-air, as if caught in motion, creating a surreal and dreamlike atmosphere. The lighting casts soft shadows on the wall, emphasizing the mysterious and artistic mood of the scene",
+        "tags": ["Gemini Nano Banana"],
+        "image": "Surreal_paper_portrait.png"
+    },
+    {
+        "id": 2,
+        "title": "Classic portrait photography",
+        "prompt": "Using this picture, create in a glamorous woman in a full long sleeves black blouse & Total black chiffon saree, sitting gracefully against a dramatic circular spotlight backdrop. She wears beautiful studds and minimal jewelry, long black wavy hair with beautiful eyes exuding elegance and poise, showing her face with slightly tilted chin gracefully. The image is in black and white, with cinematic lighting and deep shadows, creating a timeless, vintage-inspired fashion editorial look",
+        "tags": ["Gemini Nano Banana"],
+        "image": "Classic_portrait_photography.png"
+    },
+    {
+        "id": 3,
+        "title": "Power suit portrait",
+        "prompt": "A moody, cinematic portrait of a woman wearing Cap backwords, sitting on a wooden chair in a dimly lit room. She is wearing a loose, cream-colored blouse with ruffles, looking contemplative and lost in thought. Around her, sheets of paper are dramatically suspended in mid-air, as if caught in motion, creating a surreal and dreamlike atmosphere. The lighting casts soft shadows on the wall, emphasizing the mysterious and artistic mood of the scene",
+        "tags": ["Gemini Nano Banana"],
+        "image": "Power_suit_portrait.png"
+    }
 ]
